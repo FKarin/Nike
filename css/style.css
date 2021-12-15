@@ -101,11 +101,6 @@ li:nth-child(4) a:hover::after,li:nth-child(4) a:focus::after{
     background-image: url('../img/running.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-	font-family: 'futuracondensed_extra_bold', Arial, sans-serif;
-	src: url('futura_condensed_extra_bold-webfont.woff2') format('woff2'),
-         url('futura_condensed_extra_bold-webfont.woff') format('woff');
-	font-weight: normal;
-    font-style: normal;
 }
 #doit{
     margin-top: 40vh;
@@ -295,6 +290,15 @@ img{
     display: inline-block;
     padding: 1vh;
 	color:gray;
+}
+#footermenu li a{
+    color:gray;
+	transition:1s;
+}
+#footermenu li a:hover{
+    color:white;
+	transition:0.5s;
+	cursor:pointer;
 }
 #nikelogo4{
     position: absolute;
