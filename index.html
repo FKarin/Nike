@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="img/icon.png"/>
+        <meta charset="UTF-8">
+		<title>Nike</title>
+	</head>
+	<body>
+        <div id="test">
+        <header>
+            <svg id="menulogo" height="60px" width="60px" fill="white" viewBox="0 0 69 32">
+				<path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path>
+			</svg>
+            <ul id="menu">
+                <li><a href="#home" id="homemenu">Home</a></li>
+                <li><a href="#shoeproduct" id="shoemenu">Nike Burst</a></li>
+                <li><a href="#jacketproduct" id="jacketmenu">Nike Breeze</a></li>
+                <li><a href="#shipping" id="shippingmenu">Shipping</a></li>
+            </ul>
+        </header>
+        <div id="home">
+            <div id="doit">
+                <img src="img/doit.png" usemap="#map" id="justdoit">
+					<map name="map" id="alert">
+						<area coords="669,117,21" shape="circle">
+					</map>
+                <img src="img/nike.png" id="nikelogo">
+            </div>
+        </div>
+        <div id="shoeproduct">
+            <br />
+            <div id="shoe">
+                <img src="img/shoe.png" id="shoepic">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div id="desc">
+                <h1 id="shoetextdesc">WOMEN'S SHOE</h1>
+                <h1 id="shoetexttitle"><span>Nike Outburst</span></h1>
+                <p id="shoetext">The Nike Outburst Women's Shoe features a plush mesh<br> construction with leather overlays, plus lightweight foam<br> cushioning for all-day comfort.</p>
+                <ul id="shoelist">
+                    <li><b>Shown: White/Black/Team Orange</b></li>
+                    <li><b>Style: AO1069-106</b></li>
+                </ul>
+                <img src="img/nike2.png" id="nikebg">
+            </div>
+        </div>
+        <div id="jacketproduct">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave1">
+                <path fill="#f1f1f1" fill-opacity="1" d="M0,256L205.7,192L411.4,96L617.1,256L822.9,128L1028.6,288L1234.3,224L1440,160L1440,0L1234.3,0L1028.6,0L822.9,0L617.1,0L411.4,0L205.7,0L0,0Z"></path>
+             </svg>
+            <div id="jacket">
+                <img src="img/jacket.png" id="jacketpic">
+                <svg id="nikelogo2" fill="white" viewBox="0 0 100 50"><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg>
+            </div>
+            <img src="img/nike.png" height="7%" id="nikelogo3">
+            <h1 id="jackettextdesc">WOMAN</h1>
+            <h1 id="jackettexttitle"><span>Nike Breeze</span></h1>
+            <p id="jackettext">Great for using while skiing and snowboarding. This super<br> versatile, supportive design makes sure of the wearer's<br> comfort and warmth during colder weather.</p>
+            <ul id="jacketlist">
+                <li><b>Shown: Team Orange</b></li>
+                <li><b>Style: AQ1273-100</b></li>
+            </ul>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave2">
+            <path fill="#1C2028" fill-opacity="1" d="M0,256L205.7,192L411.4,96L617.1,256L822.9,128L1028.6,288L1234.3,224L1440,160L1440,0L1234.3,0L1028.6,0L822.9,0L617.1,0L411.4,0L205.7,0L0,0Z"></path>
+          </svg>
+        <div id="shipping"><h1 id="shippingtitle"><span>FREE SHIPPING AND 30-DAY JACKET TRIALS</span></h1><br>
+            <p id="shippingtext">Love it or return it. Sign up for a free NikePlus account at<br> checkout to get free shipping and 30-day returns.</p></div>
+        </div>
+		<div id="footer">
+		<svg id="location" height="15px" width="18px" fill="white" viewBox="0 0 42 58">
+			<path d="M21 0C9.4 0 0 9.5 0 21.2 0 39.9 21 58 21 58s21-18.1 21-36.8C42 9.5 32.6 0 21 0zm0 31c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10z"></path>
+		</svg>
+			<p id="locationtext">Slovenia<p>
+			<p id="copyright">© 2021 Karin Fornazarič All Rights Reserved<p>
+			<ul id="footermenu">
+                <li>Guides</li>
+                <li>Terms of Use</li>
+                <li>Terms of Sale</li>
+                <li>Company Details</li>
+				<li>Privacy & Cookie Policy</li>
+				<li>Cookie Settings</li>
+            </ul>
+			<img src="img/nike.png" height="3%" id="nikelogo4">
+		</div>
+        <script src="js/main.js"></script>
+		<script src="js/sweetalert2.js"></script>
+    </body>
+</html>
