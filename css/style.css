@@ -97,6 +97,22 @@ li:nth-child(4) a::after {
 li:nth-child(4) a:hover::after,li:nth-child(4) a:focus::after{
     transform: scale(1);
 }
+li:nth-child(5) a::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+}
+li:nth-child(5) a:hover::after,li:nth-child(5) a:focus::after{
+    transform: scale(1);
+}
+li:nth-child(6) a::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+}
+li:nth-child(6) a:hover::after,li:nth-child(6) a:focus::after{
+    transform: scale(1);
+}
 #home{
     background-image: url('../img/running.jpg');
     background-size:cover;
