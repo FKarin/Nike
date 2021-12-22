@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
 }
-@font-face {
-}
 html {
     scroll-behavior: smooth !important;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -40,6 +38,7 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-left: 45vw;
 }
 a{
     color: inherit;
@@ -159,7 +158,7 @@ canvas{
     background: #dddddd; 
 }
 ::-webkit-scrollbar-thumb {
-    background: #F26524; 
+    background: #f26524; 
 }
 .scrolling {
 	background-color: #1c20283b;
@@ -185,7 +184,7 @@ canvas{
     position: absolute;
 }
 span{
-    background: linear-gradient(#F26524, #F26524) 0 120% / 100% 2.8vh no-repeat;
+    background: linear-gradient(#f19264,#f26524) 0 120% / 100% 2.8vh no-repeat;
 }
 #shoelist{
     margin-left: 54.2vw;
@@ -270,12 +269,12 @@ img{
 }
 #wave1{
     width:100%;
-    margin-top: -10vh;
+    margin-top: -5vh;
     position: absolute;
 }
 #wave2{
     width:100%;
-    margin-top: -10vh;
+    margin-top: -5vh;
 }
 #footer{
     background-color: #1C2028;
@@ -299,7 +298,7 @@ img{
 }
 #footermenu{
 	margin-top:-2.6vh;
-	margin-left:130vh;
+	margin-left:50vw;
 }
 #footermenu li{
     list-style: none;
@@ -318,7 +317,7 @@ img{
 }
 #nikelogo4{
     position: absolute;
-    margin-left: 44vw;
+    margin-left: 38vw;
 	margin-top:-3vh;
 }
 area{
